@@ -1,0 +1,167 @@
+{
+  "personal": {
+    "name": "Abhishek Jaglan",
+    "role": "Software Engineer | Full Stack Developer | AI Engineer",
+    "description": "Dynamic AI-driven full-stack engineer, innovating scalable web solutions with cloud expertise and a passion for impactful tech.",
+    "avatar": "/avatar.jpg",
+    "location": "Dwarka, Southwest Delhi, India",
+    "email": "abhishek.jaglan08@gmail.com",
+    "socials": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/abhishekjaglan"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/abhishek-jaglan-041218160/"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://x.com/imabhijag"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Innovative full-stack engineer specializing in AI-integrated applications, cloud-native architectures, and scalable web solutions. Proven expertise in automating processes, optimizing data integrations, and delivering cost-saving production systems using modern technologies like React, Node.js, Azure, AWS, and LLMs.",
+    "resume": "/Resume Latest.pdf"
+  },
+  "projects": [
+    {
+      "title": "Media Summary & Flashcard Platform",
+      "description": "Developing a versatile platform that processes uploaded media (audio, video, text, URLs) to generate structured summaries at three detail levels and create flashcards for enhanced learning. Leverages AI for content analysis and extraction, demonstrating expertise in multimedia processing, cloud services, and educational tech.",
+      "tags": ["TypeScript", "React.js", "EC2", "S3", "AWS Textract", "AWS Transcribe", "Gemini 2.0 Flash Lite", "Puppeteer", "Readability", "Redis"],
+      "image": "https://placehold.co/600x400?text=Media+Summary+Platform",
+      "url": "",
+      "github": ""
+    },
+    {
+      "title": "TrustWorth-Bank",
+      "description": "Developed a modern banking platform using Next.js, featuring font optimization and seamless deployment on Vercel. Demonstrates expertise in full-stack development with server-side rendering and cloud hosting for efficient, user-friendly financial applications.",
+      "tags": ["Next.js", "TypeScript", "Vercel"],
+      "image": "https://placehold.co/600x400?text=TrustWorth-Bank",
+      "url": "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme",
+      "github": "https://github.com/abhishekjaglan/TrustWorth-Bank"
+    },
+    {
+      "title": "QuickDel",
+      "description": "Created a comprehensive food delivery website, handling user orders, restaurant integrations, and real-time updates. Highlights proficiency in JavaScript-based full-stack development for e-commerce style applications.",
+      "tags": ["JavaScript", "React", "Node.js"],
+      "image": "https://placehold.co/600x400?text=QuickDel",
+      "url": "",
+      "github": "https://github.com/abhishekjaglan/QuickDel"
+    },
+    {
+      "title": "Notes API",
+      "description": "Architected a scalable backend API for notes management, including user authentication with JWT, sharing capabilities, advanced search, rate limiting, and custom error handling. Utilized MongoDB Atlas for cloud-based data storage, showcasing expertise in secure, performant API design.",
+      "tags": ["Express.js", "MongoDB", "JWT", "Node.js", "Rate Limiting"],
+      "image": "https://placehold.co/600x400?text=Notes+API",
+      "url": "",
+      "github": "https://github.com/abhishekjaglan/Notes---api"
+    },
+    {
+      "title": "MyContacts Backend",
+      "description": "Implemented a RESTful API for contact management with full CRUD operations and security checks, ensuring data integrity and user privacy. Illustrates strong backend development skills in handling user data efficiently.",
+      "tags": ["Node.js", "Express.js", "REST APIs", "JavaScript"],
+      "image": "https://placehold.co/600x400?text=MyContacts+Backend",
+      "url": "",
+      "github": "https://github.com/abhishekjaglan/MyContacts---Backend"
+    }
+  ],
+  "skills": [
+    { "name": "LLM Integration" },
+    { "name": "Embeddings" },
+    { "name": "React.js" },
+    { "name": "Next.js" },
+    { "name": "Node.js" },
+    { "name": "Express.js" },
+    { "name": "Python" },
+    { "name": "TypeScript" },
+    { "name": "JavaScript" },
+    { "name": "C++" },
+    { "name": "REST APIs" },
+    { "name": "JWT Authentication" },
+    { "name": "WebSockets" },
+    { "name": "Tailwind CSS" },
+    { "name": "Dashboarding" },
+    { "name": "PostgreSQL" },
+    { "name": "MySQL" },
+    { "name": "MongoDB" },
+    { "name": "NoSQL" },
+    { "name": "Redis (Cache/Message Queue)" },
+    { "name": "Azure Cosmos DB" },
+    { "name": "MongoDB Atlas" },
+    { "name": "Git" },
+    { "name": "Docker" },
+    { "name": "Kubernetes" },
+    { "name": "Nginx" },
+    { "name": "GitHub Actions" },
+    { "name": "Postman" },
+    { "name": "Bash" },
+    { "name": "Vim" },
+    { "name": "Puppeteer" },
+    { "name": "Rate Limiting" },
+    { "name": "AWS (EC2, S3, Textract, Transcribe)" },
+    { "name": "Azure (AI Foundry, Face API, AI Models, AI Search, Container Apps, Functions, Container Environments, VNet, Subnet, ACR, Storage Accounts, Cosmos DB)" },
+    { "name": "Vercel" },
+    { "name": "Cloudflare" },
+    { "name": "JFrog Artifactory" }
+  ],
+  "experience": [
+    {
+      "company": "NCR Atleos",
+      "role": "Software Engineer - 1",
+      "startDate": "June 2024",
+      "endDate": "Present",
+      "responsibilities": [
+        "Developing an interactive RAG AI chatbot for Anaplan-based forecasting data using TypeScript, React.js, WebSockets, Azure Cosmos DB, GPT-4, and text-embedding-ada-002 embeddings, eliminating manual forecasting and providing faster, deeper insights.",
+        "Retired Informatica Cloud scheduled data integration jobs, saving $100,000 annually, by building 34 custom integration jobs and a multi-frequency scheduler with TypeScript, Docker, Azure, and a React.js dashboard.",
+        "Developed an internal tool for managing user access across five Oracle applications, handling full lifecycle from design to deployment using TypeScript, REST APIs, Nginx, Git, and GitHub Actions.",
+        "Established code versioning and deployment strategies for the finance organization via GitHub and workflows; migrated Node.js, Shell, and Python code from on-premise/cloud to GitHub.",
+        "Won annual hackathon by creating a full-stack dashboard for tracking data integration jobs across Anaplan, DRM, ERP, and EPM using React.js, TypeScript, Azure (RG, ACR, Container Environment, Container Apps), Docker, and PostgreSQL; successfully integrated into team operations.",
+        "Automated month-end close task consolidation report distribution via email to leadership, reducing process time from two weeks using Azure Storage Accounts, TypeScript cron jobs, GitHub Actions, Power BI dashboards, and Power Automate.",
+        "Built a reconciliation dashboard to compute variances between Azure Data Lake source data and ERP Cloud BIP reports, eliminating manual intervention and saving employee hours with React.js, Azure, TypeScript (Node.js), and GitHub Actions."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "City, University of London",
+      "degree": "Master's in Science, Quantitative Finance",
+      "startDate": "September 2021",
+      "endDate": "October 2022",
+      "description": "CGPA: 6.0/10. Acquired advanced skills in quantitative analysis, financial modeling, and data-driven strategies, applicable to AI and fintech development."
+    },
+    {
+      "institution": "Guru Gobind Singh Indraprastha University",
+      "degree": "Bachelor of Technology in Computer Science and Engineering",
+      "startDate": "August 2017",
+      "endDate": "June 2021",
+      "description": "CGPA: 8.3/10. Built strong foundations in programming, algorithms, and software engineering principles."
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Accountability Cheers Recognition",
+      "description": "Awarded for outstanding contributions and reliability in project delivery at NCR Atleos."
+    },
+    {
+      "title": "Achiever’s Incentive Plan",
+      "description": "Recognized for exceptional performance and impact on organizational efficiency."
+    },
+    {
+      "title": "Competitive Programming Excellence",
+      "description": "CodeStudio: Level 7, Contest Rating – 1938, Global Grandmaster in weekly coding contests, solved 300+ Data Structures and Algorithms problems."
+    }
+  ],
+  "publications": [
+    {
+      "title": "COVID-19 Trend Analysis using Machine Learning Techniques",
+      "description": "Co-authored research paper published in International Journal of Scientific & Engineering Research (IJSER), Volume 11, Issue 12, December 2020. Explored ML models for pandemic trend prediction.",
+      "url": "https://www.researchgate.net/publication/349062227_COVID-19_Trend_Analysis_using_Machine_Learning_Techniques",
+      "coauthors": ["Daksh Trehan", "Ms Megha", "Priyansh Singhal"]
+    }
+  ]
+}
+
+
