@@ -1,0 +1,23 @@
+name: Deploy New Frontend
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: [self-hosted, portfolio]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm install
+      - name: Build frontend
+        run: npm run build
+      - name: Deploy build
+        run: |
+          rm -rf /home/ec2-user/welearn/app/portfolio/dist
+          cd /home/ec2-user/welearn/runners/portfolio/_work/portfolio/portfolio
+          cp -r dist /home/ec2-user/welearn/app/portfolio/
+      - name: Restart PM2
+        run: pm2 restart portfolio
