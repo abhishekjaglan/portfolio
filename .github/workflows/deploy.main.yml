@@ -1,23 +1,31 @@
-name: Deploy New Frontend
+name: Deploy Portfolio to EC2
+
 on:
-  push:
-    branches: [main]
   pull_request:
-    branches: [main]
+    branches: [main] # Triggers on PRs to main (e.g., when raised or updated)
+  push:
+    branches: [main] # Also triggers on direct pushes/merges to main for full deploys
+
 jobs:
   deploy:
-    runs-on: [self-hosted, portfolio]
+    runs-on: ubuntu-latest # GitHub-hosted runner (no cost beyond free tier)
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Install dependencies
-        run: npm install
-      - name: Build frontend
-        run: npm run build
-      - name: Deploy build
-        run: |
-          rm -rf /home/ec2-user/welearn/app/portfolio/dist
-          cd /home/ec2-user/welearn/runners/portfolio/_work/portfolio/portfolio
-          cp -r dist /home/ec2-user/welearn/app/portfolio/
-      - name: Restart PM2
-        run: pm2 restart portfolio
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3 # Reliable SSH action
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ec2-user
+          key: ${{ secrets.DEPLOY_KEY }}
+          script: |
+            # Delete existing portfolio directory for a clean slate
+            rm -rf /home/ec2-user/portfolio
+
+            # Clone the repo fresh (since pull requires existing repo; adjust URL if private)
+            git clone https://github.com/abhishekjaglan/portfolio.git /home/ec2-user/portfolio
+
+            # Navigate and proceed
+            cd /home/ec2-user/portfolio
+            npm install  # Install production deps
+            npm run build  # Rebuild with base: '/'
+            pm2 restart portfolio  # Restart PM2 to serve new build
